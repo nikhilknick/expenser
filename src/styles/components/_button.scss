@@ -16,4 +16,8 @@
 
 .button--secondary{
     background: #888;
+    margin-bottom: $m-size;
+    @media (min-width: $desktop-breakpoint){
+        margin-bottom: $l-size;
+    }
 }
